@@ -1,0 +1,29 @@
+
+<section class="mt-5 top">
+  <div class="container">
+    <h1 class="text-center name ">Welcome to {{title}}</h1>
+      <p class="pt-3">
+        Check out your Favourite Places
+      </p>
+      <div class="text-white row">
+        <div class="col-sm col-md-6">
+          <form ng-submit="search()">
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" placeholder="Cuisines name" ng-model="value">
+              </div>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="bg-secondary"> 
+  <div class="container ">
+   <p class="text-center name rand">
+     View Your Searches
+   </p>
+  </div>
+
+</section>
